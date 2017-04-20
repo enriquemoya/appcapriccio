@@ -1,0 +1,18 @@
+.full-cover{
+    width: 100% !important;
+}
+.nav-index{
+    background-color: hsla(8, 15%, 15%, .5);
+}
+.background_red{
+    background-color: #942d2d;
+}
+.text_white{
+    color: #ddd;
+}
+i.material-icons.panel{
+    font-size: 100px;
+}
+.uk-navbar-nav>li>a {
+    color: #ddd;
+}

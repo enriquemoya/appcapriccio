@@ -1,0 +1,355 @@
+<div class="uk-background-fixed uk-background-cover uk-height-viewport uk-panel uk-flex uk-flex-column uk-flex-center uk-flex-middle" style="background-image: url(images/hamburger.jpeg);">
+    <img src="images/logo_inverse.png" class="uk-width-1-2@l uk-width-2-3@s" rel="">
+    <div class="nav-index uk-flex-center uk-flex-middle uk-padding-small uk-container">
+        <div class="uk-text-center">
+            <p class="uk-h4 text_white">¡Descarga Gratis!</p>
+        </div>
+        <div>
+            <a href="https://goo.gl/1ObDFs"><img src="images/app_store.svg"></a>
+            <a href="https://goo.gl/vsPTZY"><img src="images/play_store.png" class="uk-width-small"></a>
+        </div>
+    </div>
+    <div class="uk-position-top uk-position-fixed uk-position-z-index">
+        <nav class="uk-navbar-container uk-navbar-transparent nav-index" uk-navbar="mode: click">
+            <div class="uk-navbar-left">
+                <div class="uk-navbar-nav">
+                    <a class="uk-navbar-item uk-logo" href="#">
+                        <img src="images/capriccio_app.png" style="width: 77px;border-radius: 17px">
+                    </a>
+                </div>
+            </div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@l">
+                    <li>
+                        <a href="#">Iniciar</a>
+                        <div class="uk-navbar-dropdown uk-flex-center uk-text-center">
+                            <ul class="uk-nav uk-navbar-dropdown-nav uk-flex-center">
+                                <li class="uk-active"><a href="#">Log In</a></li>
+                                <li><a href="#"><input placeholder="e-mail" type="text" class="uk-input"></a></li>
+                                <li><a href="#"><input placeholder="password" type="password" class="uk-input"></a></li>
+                                <li class="uk-flex uk-container uk-flex-center">
+                                    <div class="uk-margin-right">
+                                        <a href="#" uk-icon="icon: facebook" ng-click="LogGoogle('facebook')"></a>
+                                        <a href="#" uk-icon="icon: google" ng-click="LogGoogle('google')"></a>
+                                    </div>
+                                    <button class="uk-button uk-button-primary">Iniciar</button>
+                                </li>
+                                <li><a href="#"><a href="#" class="uk-link">Registrarse</a></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <button class="uk-button uk-button-primary">¿Tienes un restaurante?</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="uk-navbar-right uk-hidden@l">
+                <a class="uk-navbar-toggle uk-hidden@l" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav-primary"></a>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="uk-offcanvas-content">
+    <div id="offcanvas-nav-primary" uk-offcanvas="mode: push;flip:true;overlay: true">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                <li class="uk-active"><a href="#">Active</a></li>
+                <li class="uk-parent">
+                    <a href="#">Parent</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="#">Sub item</a></li>
+                        <li><a href="#">Sub item</a></li>
+                    </ul>
+                </li>
+                <li class="uk-nav-header">Header</li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Item</a></li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a></li>
+                <li class="uk-nav-divider"></li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Item</a></li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+<div class="full-cover uk-flex-center uk-flex-middle uk-responsive-height background_red uk-child-width-1-3@s" uk-grid>
+    <div>
+        <br>
+        <div class="uk-panel uk-text-center uk-flex-column">
+            <div class="uk-tile uk-tile-muted uk-padding-small">
+                <p class="uk-h4">Busca un Restaurante</p>
+            </div>
+            <hr>
+            <div>
+                <i class="material-icons text_white panel">store</i>
+            </div>
+            <br>
+            <hr>
+            <div class="text_white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <br>
+        </div>
+    </div>
+    <div>
+        <br>
+        <div class="uk-panel uk-text-center uk-flex-column">
+            <div class="uk-tile uk-tile-muted uk-padding-small">
+                <p class="uk-h4">Haz tu Pedido</p>
+            </div>
+            <hr>
+            <div>
+                <i class="material-icons text_white panel">local_dining</i>
+            </div>
+            <br>
+            <hr>
+            <div class="text_white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <br>
+        </div>
+    </div>
+    <div>
+        <br>
+        <div class="uk-panel uk-text-center uk-flex-column">
+            <div class="uk-tile uk-tile-muted uk-padding-small">
+                <p class="uk-h4">¡Disfuta!</p>
+            </div>
+            <hr>
+            <div>
+                <i class="material-icons text_white panel">room_service</i>
+            </div>
+            <br>
+            <hr>
+            <div class="text_white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <br>
+        </div>
+    </div>
+</div>
+<div class="full-cover uk-width-1-1 uk-flex uk-flex-center uk-responsive-height uk-background-secondary uk-flex-bottom">
+    <div class="full-cover uk-child-width-1-3@s uk-margin-remove" uk-grid>
+        <div class="uk-padding-small">
+            <div class="uk-panel uk-text-center uk-flex-column">
+                <div><p class="text_white h5">Redes Sociales</p></div>
+                <div>
+                    <a href="https://www.facebook.com/Capriccio.com.mx/" uk-icon="icon: facebook" title="Dale like!" uk-tooltip="pos: left"></a>
+                    <a href="https://www.instagram.com/Capriccio_MX" uk-icon="icon: instagram" title="Siguenos!" uk-tooltip="pos: top"></a>
+                    <a href="https://www.twitter.com/Capriccio_MX" uk-icon="icon: twitter" title="Manda tu tweet!" uk-tooltip="pos: right"></a>
+                </div>
+            </div>
+        </div>
+        <div class="uk-padding-small">
+            <div class="uk-panel uk-text-center uk-flex-column">
+                <div><p class="text_white h5">Contacto</p></div>
+                <div>
+                    <p>© 2016 Capriccio by RO Solutions</p>
+                    <p>Agustin de iturbide 54A, Colonia el mariachi
+                        Hermosillo</p>
+                    <p>contacto@capriccio.com.mx</p>
+                </div>
+            </div>
+        </div>
+        <div class="uk-padding-small">
+            <div class="uk-panel uk-text-center uk-flex-column">
+                <div><p class="text_white h5">Aviso Legal</p></div>
+                <div>
+                    <a href="#modal-aviso-priv" uk-toggle>Aviso de Privacidad</a><br>
+                    <a href="#modal-aviso-legal" uk-toggle>Aviso Legal</a><br>
+                    <a href="#modal-aviso-cookies" uk-toggle>Pol&iacute;tica de Cookies</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="modal-aviso-priv" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">AVISO DE PRIVACIDAD INTEGRAL</h2>
+        </div>
+        <div class="uk-modal-body" uk-overflow-auto>
+            <p class="uk-text-justify">
+                AVISO DE PRIVACIDAD INTEGRAL<br>
+                A fin de dar cumplimiento a lo dispuesto en la LEY FEDERAL DE PROTECCIÓN DE DATOS PERSONALES EN POSESIÓN DE LOS PARTICULARES, su REGLAMENTO y los LINEAMIENTOS DEL AVISO DE PRIVACIDAD, te informamos que como operador del sitio web www.capriccio.com.mx (el “SitioWeb”) C. Jesus Rodolfo Olguin Villanueva, persona física (en adelante “CAPRICCIO”), con domicilio en Avenida San Bernardino No. 61, Colonia San Ángel, C.P. 83287, Hermosillo, Sonora, México, actúa como Encargado de sus Clientes; es decir que prestamos servicios a los establecimientos de comida preparada que manejan tus datos personales para prestarte a ti (en adelante el “Usuario”) servicios de información, así como de gestión en línea de toma y entrega de pedidos de comida a domicilio por parte de dichos Clientes.
+                El manejo de tus datos personales estará sujeto a los respectivos avisos de privacidad de aquellos Clientes de CAPRICCIO a quienes hagas tus pedidos mediante el Sitio Web. El aviso de privacidad de CAPRICCIO resultará aplicable en el caso que seas Usuario registrándote directamente a través del Sitio Web o de la aplicación para dispositivos móviles (la “App”). Efectuado tal registro CAPRICCIO fungirá como Responsable de ese manejo conforme al presente aviso de privacidad.
+                <br>DATOS PERSONALES QUE MANEJAMOS<br>
+                Los datos personales que manejamos para prestarte nuestros Servicios son: (i) datos de identificación (nombre completo y dirección IP); (ii) datos de ubicación (domicilio y/o geolocalización a través del GPS de tu dispositivo móvil); (iii) datos de contacto (teléfono y correo electrónico); (iv) datos de autenticación (nombre de usuario y contraseña), y (v) datos patrimoniales (monto individual de tus pedidos, así como la forma de pago que utilices para liquidar el monto de los pedidos solicitados.
+                Si accedes al Sitio Web y/o la App usando tu cuenta de Facebook® u otra red social también podremos tener acceso a la información de tu perfil público, incluyendo tu imagen, y correo electrónico, según los permisos que esa aplicación otorga.
+                En los casos en que al solicitar un Servicio o pedido nos indiques datos sobre intolerancias, alergias y/o restricciones alimenticias, daremos tratamiento a esos datos personales sensibles; sin embargo CAPRICCIO no almacena datos personales sensibles por lo cual no los conservaremos y será responsabilidad en todo caso del Usuario hacerlos saber al momento de realizar su pedido.
+                Dado que tú capturas tus datos al acceder al Sitio Web y/o la App, asumimos que tus datos son exactos y pertinentes para nuestro Servicios; están correctos y actualizados. Si no fuera así, por favor actualízalos o solicita su actualización a nuestro call center.
+                <br>FINALIDADES DEL MANEJO DE TUS DATOS PERSONALES<br>
+                El manejo de tus datos personales tiene las siguientes finalidades necesarias para nuestra relación contigo:
+                Identificarte, comunicarnos contigo y que puedas hacer uso del Sitio Web y de la App
+                Prestarte servicios (los “Servicios”) por medio del Sitio Web y la App, consistentes en:
+                Proporcionarte información sobre nuestros Clientes, sus productos y servicios a fin de que realices los pedidos que desees;
+                Gestionar los pedidos que realices a nuestros Clientes, desde su captura, comunicación al Cliente, entrega por parte de éste y seguimiento a la calidad del servicio que recibiste;
+                Sugerirte los productos y servicios de nuestros clientes con base en tu ubicación y pedidos anteriores, y
+                Dar cumplimiento a la relación de prestación de servicios establecida contigo.<br>
+                Adicionalmente el manejo de tus datos personales tiene las siguientes finalidades secundarias para nuestra relación contigo:
+                Mercadotecnia, envío de publicidad, y prospección comercial por medios electrónicos, acerca de CAPRICCIO, sus Clientes, productos y servicios, así como documentación relacionada con ello;
+                Realizar “pruebas A/B”, para mejorar, en todo o en parte, la experiencia de Usuario del Sitio Web y/o la App, o desarrollar u ofrecer nuevas funciones o características.
+                <br>MECANISMOS PARA LA NEGATIVA AL MANEJO DE TUS DATOS<br>
+                Puedes negarte al manejo de tus datos personales para las finalidades indicadas como secundarias en la relación de CAPRICCIO contigo solicitándolo por los medios para ejercer tus derechos ARCO (acceso, rectificación, cancelación y oposición). La negativa al manejo de los datos de tu geolocalización y/o ubicación puede darse desactivando a través de las medidas de privacidad de tu navegador Web o dispositivo móvil; sin embargo ello podría afectar o imposibilitar la puntual entrega de tu(s) pedido(s) en donde sea que te encuentres, por lo que asumes las consecuencias que ello conlleva.
+                <br>TRANSFERENCIAS DE DATOS PERSONALES, RECEPTORES Y FINALIDADES<br>
+                La Ley prevé supuestos en los cuales los prestadores de servicios pueden comunicar datos personales de sus clientes y/o usuarios a entidades públicas por así preverlo la legislación aplicable, ser necesaria para la salvaguarda de la legalidad o requerirse para el ejercicio o defensa de derechos en procedimientos jurídicos. En cualquier otro supuesto se solicitará tu autorización para transferir tus datos personales.
+                <br>EJERCICIO DE DERECHOS A R C O, REVOCACIÓN Y LIMITACIÓN DEL MANEJO DE TUS DATOS<br>
+                La Ley te otorga el derecho de tener Acceso a tu información, Rectificarla cuando fuera incorrecta o desactualizada; Cancelarla cuando dejara de ser necesario que la manejemos u Oponerte a que la manejemos para finalidades que no resulten indispensables para los propósitos de nuestra relación contigo (“Derechos ARCO”).
+                Para hacerlo envíanos una comunicación electrónica a nuestro Funcionario de Privacidad, quien se ubica en nuestras oficinas corporativas, al correo electrónico clientes@capriccio.com.mx desde el correo que hubieras registrado como Usuario, donde consten claramente tus datos de identificación y contacto e indiques el medio por el cual debamos responderte, a la cual deberás adjuntar nuestro formato de solicitud ARCO (incorporar formato sencillo) y fotocopia firmada de tu Credencial de Elector u otro documento oficial de identificación, así como de los documentos que acrediten las rectificaciones que deseas hacer en el caso del derecho de Rectificación. Si lo solicitas mediante un representante, deberás incluir también su identificación y una carta poder notariada que acredite sus facultades para representarte. Dichas solicitudes serán atendidas dentro de los 20 días hábiles de que recibamos tu solicitud correcta y completa, e implementadas dentro de los 15 días hábiles siguientes.
+                También tienes derecho a revocar tu consentimiento para el manejo de tus datos personales en todo momento. Puedes llevar a cabo tal revocación formulando una solicitud por escrito usando el formato de solicitudes ARCO (Igual). En todos los casos deberás acreditar tu identidad y la de tu apoderado, si recurres a uno. Además puedes revocar el tratamiento de tus datos personales para usos de mercadotecnia y publicidad enviada por correo electrónico pulsando en la opción que indica “no quiero recibir más correos”. Las solicitudes de Cancelación de datos o revocación del consentimiento para su manejo serán atendidas conforme al tiempo que restara en la vigencia de nuestra relación contigo; mientras tanto tus datos serán bloqueados y posteriormente suprimidos.
+                Igualmente podrás limitar el manejo de tus datos personales solicitándolo igual que el ejercicio de derechos ARCO, indicando en el asunto “Solicitud de Limitación”, y manifestando en el mismo su deseo de ser incluido en el listado de exclusión de CAPRICCIO y las finalidades para las cuales desees limitar el tratamiento de tus datos personales, lo cual será atendido dentro de los mismos plazos previstos para las solicitudes ARCO.
+                También puedes limitar el manejo de tus datos de geolocalización y ubicación a través del Sitio y/o de la App; sin embargo ello podría impedirnos conocer tu ubicación exacta y que recibas tu pedido, por lo que de hacerlo aceptas las deficiencias o impedimentos en la prestación de los Servicios.
+                <br>USO DE COOKIES U OTRAS TECNOLOGÍAS QUE PERMITAN RECABAR DATOS PERSONALES<br>
+                El SitioWeb utiliza archivos temporales (“cookies”) para facilitar tu acceso a la Web o App, mejorar tu experiencia de uso y generación de estadísticas con Google Analytics. Adicionalmente tu mismo navegador o dispositivo podrán generar cookies que permitan la operación de otras. Puedes desactivarlas y/o eliminarlas mediante las opciones de privacidad de tu navegador de Internet; sin embargo asumes que ello podría afectar tu experiencia de uso o impedirte iniciar tu sesión de usuario.
+                <br>CAMBIOS AL AVISO DE PRIVACIDAD<br>
+                Los cambios al presente aviso de privacidad serán informados mediante avisos dados a conocer en el SitioWeb o mediante notificaciones en la App. Contarás con un plazo de 5 (cinco) días naturales contados a partir del día en que hayas recibido el aviso o notificación para manifestar tu negativa al manejo de tus datos personales para las finalidades que sean indicadas como secundarias para tu relación con CAPRICCIO, de lo contrario se entenderá que has otorgado tu consentimiento sobre los cambios al aviso de privacidad.
+                <br>CONSENTIMIENTO Y ACEPTACIÓN<br>
+                Como Usuario al dar un click (pulsar, teclear) en la casilla de aceptación, se entenderá que manifiestas: (i) que autorizas el manejo de tus datos personales suministrados por este medio en los términos señalados, y (ii) que otorgas tu consentimiento para que tus datos personales sean tratados para las finalidades y condiciones establecidas en nuestros Términos Legales de Uso y este Aviso de Privacidad.
+            </p>
+        </div>
+        <div class="uk-modal-footer uk-text-right">
+            <button class="uk-button uk-button-primary uk-modal-close" type="button">Aceptar</button>
+        </div>
+    </div>
+</div>
+<div id="modal-aviso-legal" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">AVISO LEGAL</h2>
+        </div>
+        <div class="uk-modal-body uk-text-justify" uk-overflow-auto>
+            <p class="c11"><span class="c0 c2">AVISO LEGAL</span></p>
+            <p class="c5"><span class="c0">&Uacute;LTIMA ACTUALIZACI&Oacute;N: 17/11/2016.</span></p>
+            <p class="c5"><span class="c0">Estos t&eacute;rminos y condiciones legales regulan el uso del sitio web, la aplicaci&oacute;n para dispositivos m&oacute;viles y las condiciones comerciales aplicables (los&nbsp;</span><span class="c0 c2">&ldquo;T&eacute;rminos y Condiciones&rdquo;</span><span class="c0">).</span></p>
+            <p id="h.gjdgxs" class="c5"><span class="c0 c2">QUE RIGEN LA RELACI&Oacute;N JUR&Iacute;DICA PRESTACI&Oacute;N DE SERVICIOS QUE SE ESTABLECE ENTRE CAPRICCIO, (EN LO SUCESIVO &ldquo;CAPRICCIO&rdquo;) CON DOMICILIO LEGAL EN TONATIUH N&Uacute;MERO 205&nbsp;</span><span class="c2 c3">COLONIA VALLE DEL M&Aacute;RQUEZ C.P. 83294&nbsp;</span><span class="c0 c2">Y T&Uacute; (EL/LOS &ldquo;USUARIO(S)&rdquo; O &ldquo;USTED&rdquo;) POR VIRTUD DEL PRESENTE Y DE LA PRESTACI&Oacute;N DE LOS SERVICIOS PARA EL PEDIDO DE COMIDA R&Aacute;PIDA PARA ENTREGA A DOMICILIO QUE PRESTA CAPRICCIO(EN LO SUCESIVO &ldquo;SERVICIO(S)&rdquo;) CON RELACI&Oacute;N A LOS SERVICIOS DE ELABORACI&Oacute;N Y ENTREGA DE COMIDA R&Aacute;PIDA QUE PROVEEN Y PRESTAN LAS EMPRESAS AFILIADAS AL SERVICIO DE CAPRICCIO (EN LO SUCESIVO &ldquo;AFILIADOS&rdquo;).</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c0 c2 c13">LEA ESTAS CONDICIONES ATENTAMENTE ANTES DE ACCEDER O USAR LOS SERVICIOS</span></p>
+            <p class="c17">&nbsp;</p>
+            <p class="c6"><span class="c0 c13">Al acceder y usar los Servicios el Usuario acuerda vincularse jur&iacute;dicamente por estos T&eacute;rminos y Condiciones, que establecen una relaci&oacute;n contractual con Capriccio. Si no acepta estos T&eacute;rminos y Condiciones, no podr&aacute; acceder o usar los Servicios</span><span class="c3">.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c3">Denominaciones</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c3">Usuario:</span></p>
+            <p class="c6"><span class="c3">Capriccio:</span></p>
+            <p class="c5 c15"><span class="c0 c7 c9">La palabra&nbsp;</span><span class="c0 c1">&ldquo;Aplicaci&oacute;n&rdquo;</span><span class="c0 c7 c9">&nbsp;en estos T&eacute;rminos y Condiciones, se entiende por nuestra aplicaci&oacute;n para dispositivos m&oacute;viles que envuelve cualquier versi&oacute;n presente y futura, a trav&eacute;s de las cuales el Usuario puede hacer uso de nuestros Servicios; adem&aacute;s del t&eacute;rmino&nbsp;</span><span class="c0 c1">&ldquo;Web&rdquo;</span><span class="c0 c7 c9">&nbsp;que encierra cualquier versi&oacute;n actual o futura de</span><span class="c3">&nbsp;los</span><span class="c0 c7 c9">&nbsp;Sitios Web&nbsp;</span><span class="c8 c7 c9 c3"><a class="c12" href="https://www.google.com/url?q=http://www.capriccio.com.mx&amp;sa=D&amp;ust=1479472245562000&amp;usg=AFQjCNFzPKZqS_Tarz1650gyjbIYHdKoJQ">www.capriccio.com.mx</a></span><span class="c3">,&nbsp;</span><span class="c3 c18"><a class="c12" href="https://www.google.com/url?q=http://pedidos.capriccio.com.mx&amp;sa=D&amp;ust=1479472245563000&amp;usg=AFQjCNE3PX7pPmdbYXDxHY009Q9dEXI5Kg">pedidos.capriccio.com.mx</a></span><span class="c3">&nbsp;y</span><span class="c3">&nbsp;</span><br /><span class="c18 c3"><a class="c12" href="https://www.google.com/url?q=http://empresa.capriccio.com.mx&amp;sa=D&amp;ust=1479472245564000&amp;usg=AFQjCNGboOAlK-zWAMSG1aed0knMFP3y3w">empresa.capriccio.com.mx</a></span><span class="c0 c7 c9">.</span></p>
+            <p class="c6"><span class="c3">El presente documento comprende los t&eacute;rminos conforme a los cuales Capriccio te presta sus Servicios desde de su aplicaci&oacute;n m&oacute;vil Capriccio, a trav&eacute;s de la cual podr&aacute;s entrar a nuestros Servicios o a la Web.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c5 c15"><span class="c0 c7 c9">El uso de tu informaci&oacute;n personal a trav&eacute;s de los Servicios se regir&aacute; por nuestro&nbsp;</span><span class="c0 c7 c9 c19"><a class="c12" href="https://www.google.com/url?q=http://hola.sindelantal.mx/terminos-y-condiciones/clkn/http/hola.sindelantal.mx/aviso-privacidad/&amp;sa=D&amp;ust=1479472245565000&amp;usg=AFQjCNFi3a4rzODKwtAPPjbWlje389SF3Q">Aviso de Privacidad</a></span><span class="c0 c7 c9">&nbsp;y&nbsp;</span><span class="c0 c7 c9 c19"><a class="c12" href="https://www.google.com/url?q=http://hola.sindelantal.mx/terminos-y-condiciones/clkn/http/hola.sindelantal.mx/politica-cookies/&amp;sa=D&amp;ust=1479472245565000&amp;usg=AFQjCNEWYLqEU8rYmLrhUP25p_2DMjfvVQ">Pol&iacute;tica de Cookies</a></span><span class="c0 c7 c9">.</span></p>
+            <p class="c6"><span class="c0 c13">Capriccio podr&aacute; modificar los T&eacute;rminos y Condiciones relativos a los Servicios cuando lo considere pertinente. Los cuales ser&aacute;n efectivos despu&eacute;s de su publicaci&oacute;n por parte de Capriccio en su Sitio Web. Su acceso o uso de los Servicios despu&eacute;s de tal publicaci&oacute;n constituye su aprobaci&oacute;n a los T&eacute;rminos y Condiciones aqu&iacute; descritos y sus respectivas modificaciones.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c0 c13">En caso de que el Usuario no est&eacute; de acuerdo con las modificaciones en los T&eacute;rminos y Condiciones del Aviso Legal, deber&aacute; abstenerse del uso de la Aplicaci&oacute;n y notificarlo a Capriccio mediante el env&iacute;o de un correo electr&oacute;nico a:&nbsp;</span><span class="c3 c8"><a class="c12" href="mailto:atencion@capriccio.com.mx">atencion@capriccio.com.mx</a></span><span class="c0 c13">, para efecto de que sus datos personales, cuenta de usuario y contrase&ntilde;a sean eliminados de nuestra base de datos.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c5 c15"><span class="c0 c1">Servicios</span></p>
+            <p class="c6"><span class="c3">Una plataforma tecnol&oacute;gica que permite a los Usuarios de la App ordenar comida r&aacute;pida (en lo sucesivo&nbsp;</span><span class="c2 c3">"Orden(es)"</span><span class="c3">) de comida r&aacute;pida (</span><span class="c2 c3">"Art&iacute;culos"</span><span class="c3">) a los establecimientos afiliados al servicio de Capriccio (</span><span class="c2 c3">&ldquo;Afiliados&rdquo;</span><span class="c3">) que a su vez ofrecen el servicio de entrega a domicilio o recoger en el restaurante esos alimentos y que tambi&eacute;n aparecen en la Aplicaci&oacute;n de Capriccio (los&nbsp;</span><span class="c2 c3">"Servicios"</span><span class="c3">).</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c5"><span class="c0 c2">Uso</span></p>
+            <p class="c6"><span class="c0">Al descargar, instalar, usar, obtener o dar informaci&oacute;n desde y hacia esta Aplicaci&oacute;n, o al acceder a la misma, se asumir&aacute; que los Usuarios han le&iacute;do y aceptado estos T&eacute;rminos y Condiciones y nuestra&nbsp;</span><span class="c0"><a class="c12" href="https://www.google.com/url?q=https://www.socalgas.com/es/privacy-policy&amp;sa=D&amp;ust=1479472245570000&amp;usg=AFQjCNGVPYFC3c3hqDo8mt183LPN6VtUhw">Pol&iacute;tica de Privacidad</a></span><span class="c0">, la cual se encuentra presente en este documento.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c0 c13">Los Usuarios deben suspender el acceso y uso de esta Aplicaci&oacute;n de inmediato si no aceptan o no estuvieran de acuerdo con los presentes T&eacute;rminos y Condiciones. Capriccio se reserva el derecho de bloquear o prohibir a cualquier Usuario la utilizaci&oacute;n de esta Aplicaci&oacute;n a su discreci&oacute;n.</span></p>
+            <p class="c17">&nbsp;</p>
+            <p class="c5"><span class="c0 c2">Cuentas de Usuario</span></p>
+            <p class="c6"><span class="c0">Con el motivo de utilizar y no solo acceder a la Aplicaci&oacute;n, los Usuarios deben registrarse y mantener su cuenta de usuario personal (la&nbsp;</span><span class="c0 c2">&ldquo;Cuenta&rdquo;</span><span class="c0">)</span><span class="c0 c2">.</span><span class="c0">&nbsp;Usted solo puede tener una Cuenta. Para tener una Cuenta de usuario debe ser mayor de edad. Dicho registro requiere que env&iacute;e a Capriccio ciertos datos personales, como su nombre, ubicaci&oacute;n y n&uacute;mero de tel&eacute;fono. El Usuario</span><span class="c0 c13">&nbsp;que posea una Cuenta es responsable exclusivo de preservar la confidencialidad de toda informaci&oacute;n de acceso (</span><span class="c0">como son la contrase&ntilde;a y el correo electr&oacute;nico</span><span class="c0 c13">), la informaci&oacute;n de la Cuenta del Usuario y todas las acciones u omisiones vinculadas con dicha Cuenta.&nbsp;</span><span class="c0">Y asume las consecuencias de permitir que terceras personas accedan a la Aplicaci&oacute;n y/o la Web a trav&eacute;s de sus dispositivos.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c0">El Usuario se compromete a mantener actualizada toda la informaci&oacute;n de su Cuenta. Si no mantiene su informaci&oacute;n de dicho modo, no podr&aacute; acceder y usar nuestros Servicios.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c5"><span class="c0 c2">Comportamiento del usuario</span></p>
+            <p class="c6"><span class="c0">Con excepci&oacute;n de sus datos personales, los cuales se encuentran sujetos a nuestro&nbsp;</span><span class="c0"><a class="c12" href="https://www.google.com/url?q=http://hola.sindelantal.mx/terminos-y-condiciones/clkn/http/hola.sindelantal.mx/aviso-privacidad/&amp;sa=D&amp;ust=1479472245577000&amp;usg=AFQjCNFJTTYfgxPMxUEGCz9Y3MAJAWD5jQ">Aviso de Privacidad</a></span><span class="c0">. Al introducir dicho Contenido de Usuario reconoces y garantizas que posees o dispones de todos los derechos sobre el mismo.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c5"><span class="c0">La informaci&oacute;n que registre el Usuario relativa tipo de comida, n&uacute;mero de recurrencia de pedidos, observaciones sobre los alimentos, promociones, tiempo de atenci&oacute;n y/o otra de naturaleza similar, &nbsp;s&iacute; pueda ser comunicada y/o transferida a terceros como lo son los establecimientos Afiliados con fines de retroalimentaci&oacute;n, evaluaci&oacute;n y mejora de los alimentos y del servicio en general, as&iacute; como para fines propios de tipo mercadot&eacute;cnicos, estad&iacute;sticos y/o de prospecci&oacute;n comercial.</span></p>
+            <p class="c6"><span class="c0">El Usuario debe ser mayor de 18 a&ntilde;os de edad para poder utilizar nuestros Servicios. No deber&aacute; autorizar a terceros usar tu Cuenta de usuario. Asimismo no podr&aacute; trasladar su Cuenta a otras personas o entidades de ning&uacute;n tipo. Tambi&eacute;n acuerda cumplir con todas las leyes aplicables y tener&nbsp;</span><span class="c3">capacidad jur&iacute;dica para&nbsp;</span><span class="c0">utilizar los Servicios y solo podr&aacute; utilizarlos con fines relacionados a los prop&oacute;sitos leg&iacute;timos de Capriccio.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c5 c15"><span class="c0 c7 c9">Acuerda no facilitar Contenido de Usuario que sea irrespetuoso, difamatorio, amenazante, il&iacute;cito, obsceno, pornogr&aacute;fico, o de alg&uacute;n modo ofensivo, aunque dicho Contenido de Usuario est&eacute; protegido o no por la ley. Si se da alguno de los casos anteriores, Capriccio intervendr&aacute; a su sola discreci&oacute;n tales como que en cualquier per&iacute;odo de tiempo, sin alg&uacute;n motivo y sin previo aviso, analizar, registrar o eliminar Contenido de Usuario, pero sin estar obligado a hacerlo.</span></p>
+            <p class="c6"><span class="c0 c13">Est&aacute; estrictamente prohibido el uso de este sitio web y los Contenidos, as&iacute; como de la Aplicaci&oacute;n, con fines fraudulentos o ilegales o para enviar o transmitir desde o hasta este sitio web cualquier material, datos y/o informaci&oacute;n ilegal, amenazante, injurioso, calumnioso, enardecedor, pornogr&aacute;fico o profano, cuyas comunicaciones pudieran dar lugar a responsabilidad civil, penal o de cualquier materia en virtud de la ley. Usted se compromete a no realizar ninguna acci&oacute;n de las se&ntilde;aladas ni alguna que altere o interfiera con este sitio web, su Contenido, as&iacute; como de la Aplicaci&oacute;n, y asume cualquier responsabilidad presente o futura que pudiera surgir por el incumplimiento de lo se&ntilde;alado, as&iacute; como la reparaci&oacute;n del da&ntilde;o que corresponda, con independencia de si act&uacute;o de manera intencional o fortuita en nombre propio o por interp&oacute;sita persona, ante Capriccio y terceros afiliados, proveedores y otros de cualquier forma relacionados.</span></p>
+            <p class="c4 c15 c14">&nbsp;</p>
+            <h5 class="c20 c14 c22"><span class="c0 c7 c9 c19">Dispositivos y red</span></h5>
+            <p class="c5 c15"><span class="c0 c7 c9">El usuario es totalmente responsable de conseguir y cambiar de hardware (si as&iacute; se requiere) a uno compatible para acceder y usar nuestros Servicios y cualquier actualizaci&oacute;n de estos. Capriccio no garantiza funcionar en cualquier hardware o dispositivo. Asimismo, el correcto y eficiente funcionamiento de los Servicios depender&aacute;n en gran medida del uso de Internet y de las comunicaciones electr&oacute;nicas que se tengan, ya que si no se cuenta con un servicio de Proveedores de Internet de calidad los Servicios podr&aacute;n funcionar con ciertos fallos o retrasos. El Usuario esta comprometido a obtener el acceso a la red de datos necesario para poder usar nuestros Servicios. Si usted accede o utiliza los Servicios desde un dispositivo inal&aacute;mbrico se podr&aacute;n aplicar tarifas de datos de su red m&oacute;vil y usted ser&aacute; responsable del pago de dichas tarifas y tasas.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c0 c2 c13">Revelaci&oacute;n y Uso de la Informaci&oacute;n del Usuario</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c0 c13">Los mensajes a foros y correos electr&oacute;nicos enviados a Capriccio, S.A.P.I. de C.V. no se tratar&aacute;n confidencialmente. Capriccio no se har&aacute; responsable del uso o revelaci&oacute;n de los mismos. No nos env&iacute;e informaci&oacute;n confidencial o patentada. Cualquier comunicado, informaci&oacute;n, datos u otros materiales (incluyendo ideas, sugerencias, materiales u otras cosas no solicitadas) envidados a este sitio o Carpriccio por cualquier otro medio se convertir&aacute;n en propiedad exclusiva de Capriccio y podr&aacute;n ser utilizados por Capriccio con cualquier prop&oacute;sito comercial o de otro tipo, sin compensaci&oacute;n ni restricciones. Los visitantes de este sitio no est&aacute;n obligados a registrarse. Sin embargo, al solicitar muestrarios, art&iacute;culos de promoci&oacute;n o formularios de entrada, y al hacer pedidos o pedir otra informaci&oacute;n a Capriccio mediante nuestros formularios en l&iacute;nea, le pedimos que proporcione su nombre y apellidos, direcci&oacute;n f&iacute;sica, tel&eacute;fono y correo electr&oacute;nico, as&iacute; como otra informaci&oacute;n para procesar su pedido. La informaci&oacute;n que usted proporcione ser&aacute; agregada a nuestra base de datos de clientes. Dependemos de dicha base de datos para proporcionar a usted nuestro servicio. Nosotros no vendemos, intercambiamos ni rentamos su informaci&oacute;n personal a terceras personas. Tambi&eacute;n puede imprimir las copias del "Aviso Legal", "T&eacute;rminos y Condiciones" y "Pol&iacute;ticas" haciendo clic en la funci&oacute;n "Imprimir". Podemos actualizar estas pol&iacute;ticas de vez en cuando as&iacute; que por favor revise peri&oacute;dicamente.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c3">Capriccio no tiene ning&uacute;n control sobre las omisiones o acciones de los restaurantes. Mediante el uso de nuestros Servicios reconoces y aceptas la relaci&oacute;n jur&iacute;dica correspondiente a la preparaci&oacute;n, compra, entrega y consumo de una Orden de comida es exclusivamente entre t&uacute; y el Afiliado con el que realizas tu Orden.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c5"><span class="c0 c2">Realizaci&oacute;n de Pedidos</span></p>
+            <p class="c6"><span class="c0">Ya que el Usuario haya elegido los Art&iacute;culos que desea ordenar del men&uacute; de un restaurante Afiliado, podr&aacute; encargar el pedido haciendo clic en el bot&oacute;n de &ldquo;Aceptar&rdquo;, &ldquo;Enviar&rdquo; o af&iacute;n. Es importante que revise cuidadosamente la informaci&oacute;n que introduzca y corrija cualquier tipo de errores antes de hacer clic en el bot&oacute;n de &ldquo;Aceptar&rdquo;, puesto que una vez que haga clic en este bot&oacute;n ya no podr&aacute;n corregirse errores o hacer modificaciones en la Aplicaci&oacute;n. Tras realizar tu pedido ya no podr&aacute;s cancelarlo ni podr&aacute;s solicitar su reembolso.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c0">Capriccio procesar&aacute; su solicitud y le enviar&aacute; una notificaci&oacute;n de que su pedido ha sido enviado y que su solicitud est&aacute; en proceso. Una vez le llegue la Orden a nuestros restaurantes Afiliados, ellos decidir&aacute;n si aceptan o rechazan su Orden y se le notificar&aacute; de la aceptaci&oacute;n o rechazo del mismo.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c0">Los tiempos de las entregas o bien para recoger los pedidos son brindados por los Afiliados y son s&oacute;lo estimaciones. Capriccio no garantiza que las Ordenes ser&aacute;n entregadas a tiempo o est&eacute;n disponibles para su recolecci&oacute;n dentro de los tiempos estimados.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c0">Nos esmeramos para que todos nuestros Afiliados acepten todas las Ordenes y tratamos de comunicar seguidamente cualquier rechazo de alguna Orden. Trataremos de notificarte el posible rechazo de tu Orden a la mayor brevedad posible. Sin embargo, los restaurantes pueden rechazar Ordenes en cualquier momento por distintas causas que no le son atribuibles a Capriccio, tales como tener demasiados pedidos, por cualquier motivo o debido a condiciones meteorol&oacute;gicas.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c5"><span class="c0 c2">Pago</span></p>
+            <p class="c6"><span class="c0 c19">Costos de env&iacute;o</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c0">Los precios ser&aacute;n los mostrados dentro de los men&uacute; de los restaurantes en la App. Los precios de los Art&iacute;culos no incluyen los gastos de entrega, los cuales se indicar&aacute;n en la Aplicaci&oacute;n y se agregar&aacute;n al importe total, en su caso (algunos Afiliados podr&aacute;n ofrecer la entrega gratuita, incluirlos en el precio de sus productos o no aplicar cargo alguno si eliges recoger tu pedido en el restaurante).</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c0">El pago de los pedidos deber&aacute; realizarse mediante una&nbsp; tarjeta de cr&eacute;dito o de d&eacute;bito aceptada por el restaurante al momento de la entrega del pedido sea con una terminal m&oacute;vil, o bien en efectivo en el lugar de la entrega del pedido.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c0 c19">Valor de precios/costos incorrectos o no actualizados</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c0">Es probable que uno o m&aacute;s precios que se encuentren en el men&uacute; del restaurante disponible en la Aplicaci&oacute;n sean incorrectos o no est&eacute;n actualizados ya que contamos con una gran cantidad de men&uacute;s, tales como incrementos en los precios por parte de los nuestros Afiliados o aplicar cargos por costos de env&iacute;o si su lugar de entrega se encuentra muy retirado del restaurante Afiliado. Si el precio correcto de un pedido fuera superior al precio establecido en la Aplicaci&oacute;n, Capriccio no ser&aacute; responsable de ninguna forma, y en todo caso ser&aacute; el restaurante Afiliado quien decidir&aacute; sobre si rechaza el pedido, acepta el pedido al precio publicado o compensa de alguna forma al usuario.</span></p>
+            <p class="c17 c14">&nbsp;</p>
+            <p class="c20 c14"><span class="c0 c2">Uso gratuito de la aplicaci&oacute;n</span></p>
+            <p class="c5"><span class="c0">Propuesta de sustituci&oacute;n de texto:</span></p>
+            <p class="c5"><span class="c0">Sujeto al previo cumplimiento de estos T&eacute;rminos y Condiciones, y de manera temporal, limitada, anulable, no exclusiva e intransferible, Capriccio le podr&aacute; autorizar: (i) el acceso y uso gratuito de la Aplicaci&oacute;n en su dispositivo m&oacute;vil solo en relaci&oacute;n con su uso de los Servicios; y (ii) el acceso y uso de cualquier contenido y material (ilustraciones, fotograf&iacute;as, audio o video) af&iacute;n que est&eacute; disponible a trav&eacute;s de los Servicios, en cada caso solo para su uso personal, no comercial. Capriccio se reserva cualquier derecho que no haya sido otorgado por los presentes T&eacute;rminos y Condiciones.</span></p>
+            <p class="c5"><span class="c0 c2">Restricciones</span></p>
+            <p class="c5"><span class="c0">El Usuario no puede descompilar, realizar ingenier&iacute;a inversa o descomponer los Servicios; causar o lanzar cualquier programa o script con el objeto de extraer, indexar, analizar o de otro modo realizar extracci&oacute;n de datos de cualquier parte de los Servicios o recargar il&iacute;citamente la funcionalidad u operaci&oacute;n que relacione a los Servicios; o intentar obtener accesos no autorizados, da&ntilde;ar los Servicios, sistemas o redes relacionados. Tampoco &nbsp;puede</span><span class="c10 c3">&nbsp;</span><span class="c0">excluir, desechar o</span><span class="c10 c3">&nbsp;</span><span class="c0">retirar la marca registrada, derechos de autor o alguna otra notaci&oacute;n de propiedad intelectual de cualquiera de los Servicios de la Aplicaci&oacute;n; no se podr&aacute; utilizar, modificar, distribuir, reproducir, realizar obras a partir de los Servicios ofrecidos, arrendar, revender, licenciar o exhibir p&uacute;blicamente contenido de los Servicios o cualquier aspecto relacionado a este, difundir p&uacute;blicamente, emitir, comunicar o explotar de otra forma los Servicios.</span></p>
+            <p class="c5"><span class="c0 c2">Jurisdicci&oacute;n y legislaci&oacute;n aplicable</span></p>
+            <p class="c6"><span class="c0 c13">Capriccio controla y opera este sitio Web, su Contenido y la Aplicaci&oacute;n desde sus oficinas en M&eacute;xico. Este sitio web y su Contenido se rigen por las leyes federales de los Estados Unidos Mexicanos. El &aacute;mbito geogr&aacute;fico, de alcance y aplicaci&oacute;n de este sitio web, su Contenido y de la Aplicaci&oacute;n, as&iacute; como de los servicios inherentes a los mismos, ser&aacute; en los Estados Unidos Mexicanos. Si usted elige acceder, navegar y/o utilizar este sitio web y su Contenido desde el exterior de M&eacute;xico, lo har&aacute; bajo su propia decisi&oacute;n y ser&aacute; responsable del cumplimiento de los t&eacute;rminos y condiciones del presente aviso legal y de las leyes federales aplicables en M&eacute;xico.</span></p>
+            <p class="c4 c15 c14">&nbsp;</p>
+            <p class="c5 c15"><span class="c0 c7 c9">Capriccio y el Usuario, renuncian de manera expresa a cualquier otro fuero o legislaci&oacute;n aplicable que pudiere corresponderles ahora o en el futuro en raz&oacute;n de su domicilio o por cualquier otra causa, y se someten a la jurisdicci&oacute;n de las Autoridades y los Tribunales competentes en la ciudad de Hermosillo, Sonora.</span></p>
+            <p class="c17 c14">&nbsp;</p>
+            <p class="c14 c20"><span class="c0 c2">Terceros</span></p>
+            <p class="c5"><span class="c0">Los Servicios estar&aacute;n disponibles en relaci&oacute;n con los servicios y/o contenido de terceros que Capriccio no controle. Google, Apple Inc., Microsoft Windows &nbsp;y/o sus correspondientes subsidiarias o afiliados internacionales ser&aacute;n denominados terceros en este contrato si usted acepta y accede a los Servicios con dispositivos m&oacute;viles que corran sistema Android o iOS. En ning&uacute;n caso Capriccio ser&aacute; responsable de cualquier producto o servicio contenido de dichos terceros. Estos terceros involucrados no son parte de este contrato y de ning&uacute;n modo ser&aacute;n responsables de la prestaci&oacute;n o apoyo de los Servicios.</span></p>
+            <p class="c5"><span class="c0 c2">Titularidad</span></p>
+            <p class="c5"><span class="c0">Todos los derechos relativos a nuestros Servicios son y se mantendr&aacute;n de la propiedad de Capriccio o de sus licenciantes. Estos T&eacute;rminos y Condiciones no le otorgan o transfieren ning&uacute;n derecho</span><span class="c10 c3">&nbsp;</span><span class="c0">relativo a los servicios y sus prestadores, puesto que &eacute;stos le corresponden &uacute;nica y exclusivamente a Capriccio y/o sus establecimientos Afiliados, s&oacute;lo utilizar&aacute; y/o nombrar&aacute; las denominaciones comerciales, logotipos, slogan, referencias de productos, servicios o bienes de manera limitativa y enunciativa.</span></p>
+            <p class="c5 c15"><span class="c0 c1">Acceso al Servicio</span></p>
+            <p class="c6"><span class="c0">El acceso a la Web y/o la Aplicaci&oacute;n podr&aacute; ser suspendido temporal o permanentemente y sin previo aviso (ya sea por mantenimiento o cualquier otro motivo). Capriccio se esfuerza en garantizar que la Aplicaci&oacute;n y/o la Web est&eacute;n disponibles con normalidad los siete (7) d&iacute;as a la semana las veinticuatro (24) horas del d&iacute;a, pero no es responsable si no estuvieran disponibles en alg&uacute;n momento o durante cierto per&iacute;odo de tiempo por cualquier motivo.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c0">Desgraciadamente, y como es ya de conocimiento general el traspaso de informaci&oacute;n a trav&eacute;s de internet no es completamente seguro. Con el fin de cumplir con la Ley Federal de Protecci&oacute;n de Datos Personales y su Reglamento y con la Ley Federal del Consumidor tomaremos medidas de seguridad m&aacute;s &oacute;ptimas tanto f&iacute;sicas, administrativas y t&eacute;cnicamente necesarias para proteger su informaci&oacute;n personal; sin embargo no podemos garantizar completamente la seguridad de sus datos transmitidos mediante la Aplicaci&oacute;n y/o la Web atendiendo a las condiciones del dispositivo y/o la conexi&oacute;n que utilices para hacer uso de nuestros Servicios. Por lo tanto cualquier env&iacute;o de datos ser&aacute; bajo su consentimiento y por ende bajo su propio riesgo.</span></p>
+            <p class="c4 c14">&nbsp;</p>
+            <p class="c20"><span class="c0 c2">Acceso y Condiciones de la Aplicaci&oacute;n</span></p>
+            <p class="c17">&nbsp;</p>
+            <p class="c6"><span class="c0">Los datos de inicio de sesi&oacute;n (correo electr&oacute;nico y contrase&ntilde;a), o los datos de autenticaci&oacute;n proporcionados por Facebook&reg; que emplee el Usuario para acceder a su Cuenta a trav&eacute;s de la Aplicaci&oacute;n y/o Web</span><span class="c10 c3">&nbsp;</span><span class="c0">establecen legalmente y proporcionalmente una firma electr&oacute;nica personal, por lo cual, las acciones que se deriven de ellas ser&aacute;n imputadas a los titulares de dichas cuentas.</span></p>
+            <p class="c4 c14">&nbsp;</p>
+            <p class="c6"><span class="c0 c2">Atenci&oacute;n al usuario</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c0">Es muy importante para nosotros la calidad de los Servicios que ofrecemos a nuestros Usuarios. De conformidad con lo dispuesto en los p&aacute;rrafos anteriores, nuestro equipo de Atenci&oacute;n al Usuario tratar&aacute; de solventar cualquier problema que pudiera tener con su Orden. Puede ponerse en contacto con nuestro servicio de atenci&oacute;n a cliente haciendo clic en "Ayuda" o bot&oacute;n equivalente o llamando al n&uacute;mero de tel&eacute;fono que aparece en la Web. Tambi&eacute;n est&aacute; disponible nuestro correo electr&oacute;nico&nbsp;</span><span class="c8 c3"><a class="c12" href="mailto:atencion@capriccio.com.mx">atencion@capriccio.com.mx</a></span><span class="c0">&nbsp;para tal fin.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c6"><span class="c0">La falta de satisfacci&oacute;n por la calidad de los productos o de los servicios prestados por un restaurante es responsabilidad de &eacute;stos. En caso de requerir un reembolso o disminuci&oacute;n del costo, ser&aacute; responsabilidad exclusiva de los restaurantes. De ser as&iacute;, deber&aacute;s ponerte en contacto con el restaurante directamente, presentando una reclamaci&oacute;n debidamente argumentada y por escrito, siguiendo los procedimientos de reclamaci&oacute;n que disponga cada restaurante.&nbsp;Capriccio no tiene ning&uacute;n control sobre los restaurantes ni sobre la calidad de los productos o servicios que estos ofrecen, y no tiene ninguna responsabilidad para realizar indemnizaciones de ning&uacute;n tipo.</span></p>
+            <p class="c4">&nbsp;</p>
+            <p class="c20 c14"><span class="c0 c2">Limitaci&oacute;n de responsabilidad</span></p>
+            <p class="c5"><span class="c0">Capriccio no se har&aacute; responsable de alg&uacute;n problema derivado en los productos ordenados o del servicio otorgado por cada restaurante. Capriccio tampoco ser&aacute; responsable de los siguientes da&ntilde;os: Unilaterales; colaterales ya sea que fuesen directos o indirectos; da&ntilde;os o afectaciones producidas sin dolo. As&iacute; tambi&eacute;n, Capriccio no se har&aacute; responsable de dificultades t&eacute;cnicas o especiales que sean imputables a los restaurantes. El cobro pecuniario que realice cada restaurante ser&aacute; responsabilidad &uacute;nica y exclusiva de ellos, incluyendo lucro excesivo o desproporcionado, por lo cual cualquier reclamaci&oacute;n debe ser directamente con ellos. Capriccio no ser&aacute; responsable del uso de los datos personales, puesto que es responsabilidad &uacute;nica y exclusiva del adquirente. En caso de existir extrav&iacute;o de datos, Capriccio no ser&aacute; responsable de da&ntilde;os, alteraci&oacute;n o p&eacute;rdida que deriven de: (I.-) Uso del servicio; (II.-) Carencia o problema de utilidad o acceso al servicio que se proporciona; (III.-) De las negociaciones derivadas de la relaci&oacute;n cliente-proveedor, esto a pesar de que Capriccio hubiese sido o no advertido de la posibilidad de da&ntilde;os. Capriccio no ser&aacute; responsable &nbsp;de la tardanza o de la falta de realizaci&oacute;n que resulte de causas de gravidez o fuerza mayor, ya sea que trasciendan o no del control razonable de Capriccio.</span></p>
+            <p class="c5 c15"><span class="c0 c7 c9">Usted podr&aacute; utilizar los servicios de Capriccio &uacute;nica y exclusivamente bajo los t&eacute;rminos establecidos expresamente en estos T&eacute;rminos y Condiciones (ordenar comida a domicilio).</span></p>
+        </div>
+        <div class="uk-modal-footer uk-text-right">
+            <button class="uk-button uk-button-primary uk-modal-close" type="button">Aceptar</button>
+        </div>
+    </div>
+</div>
+<div id="modal-aviso-cookies" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title uk-text-uppercase">Pol&iacute;tica de Cookies</h2>
+        </div>
+        <div class="uk-modal-body uk-text-justify" uk-overflow-auto>
+            <p class="c5 c9"><span class="c0 c1">Pol&iacute;tica de Cookies</span></p>
+            <p class="c5"><span class="c0">Los Usuarios de la Aplicaci&oacute;n y de la Web de&nbsp;Capriccio&nbsp;reconocen y est&aacute;n de acuerdo que&nbsp;Capriccio mediante la utilizaci&oacute;n de cookies ("Cookies") para que Capriccio ofrezca una mejor navegaci&oacute;n. Una Cookie es informaci&oacute;n muy peque&ntilde;a que se env&iacute;a en un sitio web, los navegadores la guardan y duran un tiempo limitado y que ayudan a personalizar las funciones de los servicios en los sitios web. Adicionalmente ofrecemos funcionalidades que s&oacute;lo est&aacute;n disponibles a trav&eacute;s la utilizaci&oacute;n de Cookies. Adem&aacute;s, podremos utilizar las Cookies para ofrecer seguridad y autenticaci&oacute;n del sitio de Capriccio, as&iacute; como hacer cumplir las reglas.</span></p>
+            <p class="c5"><span class="c4 c7">&nbsp;</span></p>
+            <p class="c5"><span class="c0">El presente documento de Pol&iacute;tica de Cookies cubre el manejo de Cookies por el sitio&nbsp;</span><span class="c2"><a class="c8" href="https://www.google.com/url?q=http://www.capriccio.com.mx&amp;sa=D&amp;ust=1479472664655000&amp;usg=AFQjCNHXqqV8VjW2YlBxoBka8_nGITWERw">www.capriccio.com.mx</a></span><span class="c0">,&nbsp;</span><span class="c2"><a class="c8" href="https://www.google.com/url?q=http://pedidos.capriccio.com.mx&amp;sa=D&amp;ust=1479472664655000&amp;usg=AFQjCNH-ywE4KWq56F62c8585UrxARaMRQ">pedidos.capriccio.com.mx</a></span><span class="c4">&nbsp;y&nbsp;</span><span class="c2"><a class="c8" href="https://www.google.com/url?q=http://empresa.capriccio.com.mx&amp;sa=D&amp;ust=1479472664656000&amp;usg=AFQjCNGczOFFz06ab8m0ap3xTvo68aAsKg">empresa.capriccio.com.mx</a></span><span class="c0">. Capriccio no controla la utilizaci&oacute;n de Cookies por terceros. La instalaci&oacute;n y existencia de las Cookies en el equipo del Usuario depende de su &uacute;nico consentimiento y puede ser eliminada de su computador cuando lo requiera el Usuario.</span></p>
+            <p class="c3 c10">&nbsp;</p>
+            <p class="c5"><span class="c0">Las Cookies se usan para que el Usuario no tenga que ingresar su contrase&ntilde;a cada vez que entre a una p&aacute;gina del sitio</span><span class="c4">&nbsp;en una misma sesi&oacute;n</span><span class="c0">, tambi&eacute;n para confirmar y contar las visitas, registros, la actividad de los Usuarios y efectos para acuerdos comerciales, siempre teniendo como principal objetivo el beneficio del Usuario, y no ser&aacute; utilizado con otros fines que no sean los leg&iacute;timos de&nbsp;Capriccio.</span><span class="c4 c7">&nbsp;</span></p>
+        </div>
+        <div class="uk-modal-footer uk-text-right">
+            <button class="uk-button uk-button-primary uk-modal-close" type="button">Aceptar</button>
+        </div>
+    </div>
+</div>
+<script src="js/scripts.js"></script>

@@ -1,0 +1,26 @@
+{
+  "name": "capriccio_web",
+  "authors": [
+    "Enrique Moya <enrique.moya08@gmail.com>"
+  ],
+  "description": "Gestor web app capriccio",
+  "main": "index.html",
+  "license": "Capriccio.com.mx",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "~1.6.4",
+    "angular-loader": "~1.6.4"
+  },
+  "dependencies": {
+    "normalize-css": "^6.0.0",
+    "angularfire": "^2.3.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "capriccio",
+  "authors": [
+    "Enrique Moya <enrique.moya08@gmail.com>"
+  ],
+  "version": "1.0.0",
+  "description": "gestor web",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.9.0",
+    "local-web-server":"^1.2.7"
+  },
+
+  "scripts": {
+    "postinstall": "bower install",
+
+    "update-deps": "npm update",
+    "postupdate-deps": "bower update",
+
+    "prestart": "npm install",
+    "start": "ws --spa index.html"
+  },
+  "license": "ISC"
+}
