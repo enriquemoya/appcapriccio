@@ -12,6 +12,11 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body ng-app="Capriccio">
+<audio id="audio_not">
+    <source src="app/audio/youve-been-informed.mp3" type="audio/mp3">
+    <source src="app/audio/coins.mp3" type="audio/mp3">
+    <source src="app/audio/long-chime-sound.mp3" type="audio/mp3">
+</audio>
 <div ng-view></div>
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
@@ -24,5 +29,6 @@
 <script src="app/app.js"></script>
 <script src="app/Factories/firebase.js"></script>
 <script src="app/index/index.js"></script>
+<script src="app/directives/password_repeat.js"></script>
 </body>
 </html>
